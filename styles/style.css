@@ -1,0 +1,222 @@
+@import url('./variaveis.css');
+
+body {
+    font-family: var(--font-main);
+    font-weight: var(--font-size-main);
+}
+
+header {
+    background-color: var(--back-main);
+    min-width: 100%;
+
+
+
+}
+
+header h1 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+header p {
+    color: var(--white);
+    padding: 0 1rem 2rem 1rem;
+}
+
+.basicInfos {
+    background-color: var(--gray-light);
+}
+
+.textInfo {
+    padding: 1rem;
+}
+
+.textInfo h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+}
+
+.textInfo p {
+    text-align: center;
+    margin: 0 0 3rem 0;
+}
+
+.textInfo img {
+    width: 100%;
+    height: 100%;
+}
+
+.infoA {
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.infoA p strong {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form {
+    padding: 1rem 1rem 3rem 1rem;
+    background-color: var(--back-main);
+}
+
+.form h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+    color: var(--white);
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dados {
+    border-radius: 10px;
+    border: none;
+    margin: 1rem 15% 0 15%;
+    padding: 1rem 0.5rem;
+}
+
+.send {
+    color: var(--white);
+    margin: 3rem 25% 0 25%;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--back-button);
+}
+
+.send:hover {
+    box-shadow: 5px 5px 5px rgba(0, 212, 255, 0.5);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 720px) {
+
+    header {
+        height: 50vw;
+    }
+
+    header h1 {
+        font-size: 2.8rem;
+        padding: 6rem 3rem 1rem 4rem ;
+    }
+
+    header p {
+        font-size: 1.5rem;
+        padding: 1rem 3rem 1rem 4rem ;
+    }
+
+    .basicInfos ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .textInfo {
+        display: flex;
+        padding: 0 2rem;
+        align-items: center;
+    }
+
+    .textInfo div {
+        padding: 0 2rem;
+    }
+
+    .textInfo img {
+        width: 40%;
+        padding: 2rem 0 ;
+    }
+
+    .dados {
+        margin: 1rem 25% 0 25%;
+
+    }
+    
+    .send {
+        margin: 3rem 35% 0 35%;
+
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    header {
+        height: 30vw;
+    }
+
+    header h1 {
+        font-size: 5rem;
+        padding: 10rem 3rem 1rem 4rem ;
+    }
+
+    header p {
+        font-size: 2rem;
+        padding: 1rem 3rem 1rem 4rem ;
+    }
+
+    .basicInfos {
+        padding: 5rem 0;
+    }
+
+    .basicInfos ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .infoA {
+        padding: 1rem;
+        text-align: left;
+    
+    }
+
+    .infoA p {
+        font-size: 1.5rem;
+    }
+    
+    .infoA p strong {
+        display: block;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .textInfo {
+        padding: 0 5%;
+    }
+
+    .textInfo h2 {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .textInfo p {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .textInfo img {
+        padding: 3rem 0 ;
+    }
+
+    .dados {
+        margin: 1rem 38% 0 38%;
+
+    }
+    
+    .send {
+        margin: 3rem 45% 0 45%;
+    }
+}

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --font-main:'Inter', sans-serif;
+    --font-size-main:400;
+    --back-main:#303030;
+    --back-button:#C07212;
+    --white:#ffffff;
+    --gray-light:#F9F9F9;
+}
